@@ -88,5 +88,5 @@ Contributions are welcome! Please open an issue or PR on the [storsko-core](http
 
 This documentation is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-Storsko Core software is AGPL-3.0 open source — see [LICENSE](https://github.com/storsko/storsko-core/blob/main/LICENSE) for details.
+Storsko Core software is AGPL-3.0 open source - see [LICENSE](https://github.com/storsko/storsko-core/blob/main/LICENSE) for details.
 
