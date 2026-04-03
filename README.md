@@ -10,7 +10,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-20+-green.svg)](https://nodejs.org)
 [![pnpm](https://img.shields.io/badge/pnpm-9+-yellow.svg)](https://pnpm.io)
 
-Enterprise governance for AI agent runtimes. Build, deploy, and monitor AI agents with confidence.
+Enterprise governance for AI agent runtimes. Build, deploy, and monitor AI agents with confidence. EU-AI Act, DSVGO conform.
 
 [🌐 storsko.com](https://storsko.com) &nbsp;|&nbsp; [📦 Open Source (storsko-core)](https://github.com/storsko/storsko-core) &nbsp;|&nbsp; [🚀 Live Docs](https://docs.storsko.com)
 
