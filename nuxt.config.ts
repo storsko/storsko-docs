@@ -13,4 +13,12 @@ export default defineNuxtConfig({
     ],
   },
   compatibilityDate: '2024-07-06',
+  vite: {
+    optimizeDeps: {
+      include: [
+        'dayjs',
+        '@braintree/sanitize-url',
+      ]
+    },
+  },
 });
