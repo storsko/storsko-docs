@@ -1,0 +1,57 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g stroke="#1e293b" stroke-width="1" opacity="0.5">
+    <line x1="0" y1="157.5" x2="1200" y2="157.5"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="472.5" x2="1200" y2="472.5"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+
+  <!-- Logo mark (simplified robot face from icon.svg) -->
+  <g transform="translate(80, 180) scale(2.8)">
+    <!-- Face circle -->
+    <circle cx="100" cy="110" r="70" fill="#3b82f6" opacity="0.9"/>
+    <!-- Eyes -->
+    <circle cx="70" cy="90" r="10" fill="#0f172a"/>
+    <circle cx="130" cy="90" r="10" fill="#0f172a"/>
+    <!-- Smile -->
+    <path d="M90 110 Q100 118 110 110" stroke="#0f172a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Accent bar -->
+  <rect x="0" y="540" width="1200" height="4" fill="url(#accent)"/>
+
+  <!-- Text -->
+  <text x="380" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="white">
+    Storsko
+  </text>
+  <text x="380" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="400" fill="#94a3b8">
+    Enterprise Governance for AI Agent Runtimes
+  </text>
+
+  <!-- Tagline -->
+  <text x="380" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#64748b">
+    Accountability · Auditability · Control
+  </text>
+
+  <!-- Bottom text -->
+  <text x="80" y="600" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#64748b">
+    docs.storsko.com
+  </text>
+</svg>

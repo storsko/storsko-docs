@@ -1,49 +1,42 @@
-# shadcn-docs-nuxt Minimal Starter
+# Storsko Documentation
 
-Starter template for [shadcn-docs-nuxt](https://github.com/ZTL-UwU/shadcn-docs-nuxt).
+Documentation site for [Storsko](https://storsko.com) — Enterprise governance for AI agent runtimes.
+
+Available at [Documentation](https://docs.storsko.com).
+
+Built with [shadcn-docs-nuxt](https://github.com/ZTL-UwU/shadcn-docs-nuxt).
+
 
 ## Setup
 
-Make sure to install the dependencies:
-
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# bun
-bun install
 ```
 
-## Development Server
+## Development
 
-Start the development server on http://localhost:3000
+Start the development server:
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
-## Production
+The docs site runs on http://localhost:3000.
 
-[![Deploy to NuxtHub](https://hub.nuxt.com/button.svg)](https://hub.nuxt.com/new?repo=ZTL-UwU/shadcn-docs-nuxt-starter)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FZTL-UwU%2Fshadcn-docs-nuxt-starter)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https%3A%2F%2Fgithub.com%2FZTL-UwU%2Fshadcn-docs-nuxt-starter)
-
-Build the application for production:
+## Building
 
 ```bash
-npm run build
+pnpm build
 ```
 
-Locally preview production build:
+Preview production build:
 
 ```bash
-npm run preview
+pnpm preview
 ```
 
-Checkout the [deployment documentation](https://shadcn-docs-nuxt.vercel.app/getting-started/deployment) for more information.
+## License
+
+This documentation is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+For Storsko Core licensing, see [LICENSE](LICENSE) in the root of the storsko-core repository.
