@@ -35,6 +35,19 @@
               <SmartIcon v-if="link?.icon" :name="link.icon" :size="18" aria-hidden="true" />
             </UiButton>
           </NuxtLinkLocale>
+          <a
+            href="https://storsko.com"
+            target="_blank"
+            rel="noopener"
+          >
+            <UiButton size="sm" class="ml-1 hidden sm:inline-flex">
+              <SmartIcon name="lucide:arrow-up-right" :size="14" class="mr-1" aria-hidden="true" />
+              storsko.com
+            </UiButton>
+            <UiButton size="icon" variant="ghost" class="sm:hidden" aria-label="storsko.com">
+              <SmartIcon name="lucide:globe" :size="18" aria-hidden="true" />
+            </UiButton>
+          </a>
         </div>
       </div>
     </div>
